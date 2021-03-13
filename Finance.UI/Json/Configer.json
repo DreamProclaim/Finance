@@ -1,0 +1,12 @@
+{
+  "IOC": {
+    "User": {
+      "Service": "UserService",
+      "Copment": "UserCopment"
+    },
+    "Role": {
+      "Service": "RoleService",
+      "Copment": "RoleCopment"
+    }
+  }
+}
