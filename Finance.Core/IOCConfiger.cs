@@ -19,10 +19,10 @@ namespace Finance.Core
             //创建配置根对象
             var configurationRoot = builder.Build();
             //取配置根下的 name 部分
-            var Services = configurationRoot.GetSection("IOC").GetSection(t.GetType().ToString()).GetSection("Service");
-            var Copments = configurationRoot.GetSection("IOC").GetSection(t.GetType().ToString()).GetSection("Copment");
-            element.Services = Services.Value;
-            element.Copments = Copments.Value;
+            //var Services = configurationRoot.GetSection("IOC").GetSection(t.GetType().ToString()).GetSection("Service");
+            //var Copments = configurationRoot.GetSection("IOC").GetSection(t.GetType().ToString()).GetSection("Copment");
+            //element.Services = Services.Value;
+            //element.Copments = Copments.Value;
             return element;
         }
     }

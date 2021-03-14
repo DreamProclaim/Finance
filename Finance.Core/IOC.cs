@@ -10,9 +10,7 @@ namespace Finance.Core
     public class Ioc:BaseIOC
     {
         /// <summary>
-        /// 生命周期分为 瞬时生命周期（默认）  单例生命周期（在一个进程中有且只有一个实例） 线程单例（每个线程是不同的实例同一个线程是同一个实例
-        /// 
-        /// ） 
+        /// 生命周期分为 瞬时生命周期（默认）  单例生命周期（在一个进程中有且只有一个实例） 线程单例（每个线程是不同的实例同一个线程是同一个实例） 
         /// </summary>
         private Dictionary<string, Type> IOCDictionary = new Dictionary<string, Type>();
 
