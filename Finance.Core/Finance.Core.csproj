@@ -123,6 +123,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseIOC.cs" />
+    <Compile Include="Characteristic\InjectionCharacteristics.cs" />
     <Compile Include="Ioc.cs" />
     <Compile Include="IOCConfiger.cs" />
     <Compile Include="IOCXMLConfiger.cs" />
