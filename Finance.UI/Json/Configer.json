@@ -1,12 +1,14 @@
 {
-  "IOC": {
-    "User": {
-      "Service": "UserService",
-      "Copment": "UserCopment"
-    },
-    "Role": {
-      "Service": "RoleService",
-      "Copment": "RoleCopment"
+  "components": [
+    {
+      "type": "AutofacJSON.Compment.StudioCompment,AutofacJSON.Compment",
+      "services": [
+        {
+          "type": "AutofacJSON.Service.IStudio,AutofacJSON.Service"
+        }
+      ],
+      "instanceScope": "per-dependency", //˲̬
+      "injectProperty": true
     }
-  }
+  ]
 }
