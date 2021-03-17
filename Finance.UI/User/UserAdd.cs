@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CCWin;
-using Finance.UI.Close;
 
 namespace Finance.UI.User
 {
@@ -30,9 +29,7 @@ namespace Finance.UI.User
 
         private void UserAdd_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.Show();
-            WindowsClose windows = new WindowsClose();
-            windows.Show();
+            
         }
     }
 }
