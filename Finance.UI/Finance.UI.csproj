@@ -151,5 +151,15 @@
     <Content Include="Image\Icon\w4.ico" />
     <Content Include="Image\Icon\w6.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Finance.Core\Finance.Core.csproj">
+      <Project>{e80d4322-9bcc-496a-a16a-54918c0eccfb}</Project>
+      <Name>Finance.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Finance.Models\Finance.Models.csproj">
+      <Project>{9dee6251-1c44-435b-b2c2-860fd70dd4e9}</Project>
+      <Name>Finance.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

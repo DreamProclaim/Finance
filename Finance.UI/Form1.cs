@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CCWin;
 using Finance.UI.User;
+using Finance.Core.Autofac;
 
 namespace Finance.UI
 {
@@ -29,6 +30,10 @@ namespace Finance.UI
             UserAdd userAdd = new UserAdd();
             this.Close();
             userAdd.Show();
+        }
+
+        private void skinButton2_Click(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -1,13 +1,13 @@
 {
   "components": [
     {
-      "type": "AutofacJSON.Compment.StudioCompment,AutofacJSON.Compment",
+      "type": "Finance.Copment.UserCompment,Finance.Copment",
       "services": [
         {
-          "type": "AutofacJSON.Service.IStudio,AutofacJSON.Service"
+          "type": "Finance.Service.IUserService,Finance.Service"
         }
       ],
-      "instanceScope": "per-dependency", //˲̬
+      "instanceScope": "per-dependency", 
       "injectProperty": true
     }
   ]

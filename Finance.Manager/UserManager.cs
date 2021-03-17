@@ -9,14 +9,14 @@ namespace Finance.Manager
 {
     public class UserManager:BaseManager<User>
     {
-        public string Create(User user)
+        public int Create(User user)
         {
             string sql = "insert into " +
                 "User(UserName,UserNumber,PassWord,PiturPath,Sex,Status) " +
                 "values(" + user.UserName + ","+user.UserNumber+","+user.PassWord+","+user.PiturPath+","+user.Sex+"" +
                 ","+user.Status+")";
             var result=Add(sql);
-            return "";
+            return result;
         }
     }
 }
