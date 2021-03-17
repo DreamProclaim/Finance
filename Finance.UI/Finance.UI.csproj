@@ -89,12 +89,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Close\WindowsClose.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Close\WindowsClose.Designer.cs">
-      <DependentUpon>WindowsClose.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,9 +103,6 @@
     <Compile Include="User\UserAdd.Designer.cs">
       <DependentUpon>UserAdd.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Close\WindowsClose.resx">
-      <DependentUpon>WindowsClose.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
