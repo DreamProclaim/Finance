@@ -40,8 +40,8 @@ namespace Finance.UI.User
             this.skinLabel4 = new CCWin.SkinControl.SkinLabel();
             this.skinTextBox4 = new CCWin.SkinControl.SkinTextBox();
             this.skinLabel5 = new CCWin.SkinControl.SkinLabel();
-            this.skinLabel6 = new CCWin.SkinControl.SkinLabel();
             this.skinButton1 = new CCWin.SkinControl.SkinButton();
+            this.skinButton2 = new CCWin.SkinControl.SkinButton();
             this.SuspendLayout();
             // 
             // skinLabel1
@@ -52,7 +52,7 @@ namespace Finance.UI.User
             this.skinLabel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel1.Location = new System.Drawing.Point(67, 54);
             this.skinLabel1.Name = "skinLabel1";
-            this.skinLabel1.Size = new System.Drawing.Size(85, 20);
+            this.skinLabel1.Size = new System.Drawing.Size(69, 17);
             this.skinLabel1.TabIndex = 0;
             this.skinLabel1.Text = "skinLabel1";
             // 
@@ -88,7 +88,7 @@ namespace Finance.UI.User
             this.skinTextBox1.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.skinTextBox1.SkinTxt.Location = new System.Drawing.Point(5, 5);
             this.skinTextBox1.SkinTxt.Name = "BaseText";
-            this.skinTextBox1.SkinTxt.Size = new System.Drawing.Size(175, 22);
+            this.skinTextBox1.SkinTxt.Size = new System.Drawing.Size(175, 18);
             this.skinTextBox1.SkinTxt.TabIndex = 0;
             this.skinTextBox1.SkinTxt.Text = "skinTextBox1";
             this.skinTextBox1.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
@@ -108,7 +108,7 @@ namespace Finance.UI.User
             this.skinLabel2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel2.Location = new System.Drawing.Point(419, 62);
             this.skinLabel2.Name = "skinLabel2";
-            this.skinLabel2.Size = new System.Drawing.Size(85, 20);
+            this.skinLabel2.Size = new System.Drawing.Size(69, 17);
             this.skinLabel2.TabIndex = 2;
             this.skinLabel2.Text = "skinLabel2";
             // 
@@ -144,7 +144,7 @@ namespace Finance.UI.User
             this.skinTextBox2.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.skinTextBox2.SkinTxt.Location = new System.Drawing.Point(5, 5);
             this.skinTextBox2.SkinTxt.Name = "BaseText";
-            this.skinTextBox2.SkinTxt.Size = new System.Drawing.Size(175, 22);
+            this.skinTextBox2.SkinTxt.Size = new System.Drawing.Size(175, 18);
             this.skinTextBox2.SkinTxt.TabIndex = 0;
             this.skinTextBox2.SkinTxt.Text = "skinTextBox2";
             this.skinTextBox2.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
@@ -164,7 +164,7 @@ namespace Finance.UI.User
             this.skinLabel3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel3.Location = new System.Drawing.Point(67, 124);
             this.skinLabel3.Name = "skinLabel3";
-            this.skinLabel3.Size = new System.Drawing.Size(85, 20);
+            this.skinLabel3.Size = new System.Drawing.Size(69, 17);
             this.skinLabel3.TabIndex = 4;
             this.skinLabel3.Text = "skinLabel3";
             // 
@@ -200,7 +200,7 @@ namespace Finance.UI.User
             this.skinTextBox3.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.skinTextBox3.SkinTxt.Location = new System.Drawing.Point(5, 5);
             this.skinTextBox3.SkinTxt.Name = "BaseText";
-            this.skinTextBox3.SkinTxt.Size = new System.Drawing.Size(175, 22);
+            this.skinTextBox3.SkinTxt.Size = new System.Drawing.Size(175, 18);
             this.skinTextBox3.SkinTxt.TabIndex = 0;
             this.skinTextBox3.SkinTxt.Text = "skinTextBox3";
             this.skinTextBox3.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
@@ -220,7 +220,7 @@ namespace Finance.UI.User
             this.skinLabel4.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel4.Location = new System.Drawing.Point(419, 124);
             this.skinLabel4.Name = "skinLabel4";
-            this.skinLabel4.Size = new System.Drawing.Size(85, 20);
+            this.skinLabel4.Size = new System.Drawing.Size(69, 17);
             this.skinLabel4.TabIndex = 6;
             this.skinLabel4.Text = "skinLabel4";
             // 
@@ -256,7 +256,7 @@ namespace Finance.UI.User
             this.skinTextBox4.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.skinTextBox4.SkinTxt.Location = new System.Drawing.Point(5, 5);
             this.skinTextBox4.SkinTxt.Name = "BaseText";
-            this.skinTextBox4.SkinTxt.Size = new System.Drawing.Size(175, 22);
+            this.skinTextBox4.SkinTxt.Size = new System.Drawing.Size(175, 18);
             this.skinTextBox4.SkinTxt.TabIndex = 0;
             this.skinTextBox4.SkinTxt.Text = "skinTextBox4";
             this.skinTextBox4.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
@@ -276,21 +276,9 @@ namespace Finance.UI.User
             this.skinLabel5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel5.Location = new System.Drawing.Point(67, 207);
             this.skinLabel5.Name = "skinLabel5";
-            this.skinLabel5.Size = new System.Drawing.Size(85, 20);
+            this.skinLabel5.Size = new System.Drawing.Size(69, 17);
             this.skinLabel5.TabIndex = 8;
             this.skinLabel5.Text = "skinLabel5";
-            // 
-            // skinLabel6
-            // 
-            this.skinLabel6.AutoSize = true;
-            this.skinLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.skinLabel6.BorderColor = System.Drawing.Color.White;
-            this.skinLabel6.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.skinLabel6.Location = new System.Drawing.Point(165, 207);
-            this.skinLabel6.Name = "skinLabel6";
-            this.skinLabel6.Size = new System.Drawing.Size(85, 20);
-            this.skinLabel6.TabIndex = 9;
-            this.skinLabel6.Text = "skinLabel6";
             // 
             // skinButton1
             // 
@@ -306,13 +294,27 @@ namespace Finance.UI.User
             this.skinButton1.Text = "skinButton1";
             this.skinButton1.UseVisualStyleBackColor = false;
             // 
+            // skinButton2
+            // 
+            this.skinButton2.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton2.DownBack = null;
+            this.skinButton2.Location = new System.Drawing.Point(422, 207);
+            this.skinButton2.MouseBack = null;
+            this.skinButton2.Name = "skinButton2";
+            this.skinButton2.NormlBack = null;
+            this.skinButton2.Size = new System.Drawing.Size(75, 23);
+            this.skinButton2.TabIndex = 11;
+            this.skinButton2.Text = "skinButton2";
+            this.skinButton2.UseVisualStyleBackColor = false;
+            // 
             // UserAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(783, 349);
+            this.Controls.Add(this.skinButton2);
             this.Controls.Add(this.skinButton1);
-            this.Controls.Add(this.skinLabel6);
             this.Controls.Add(this.skinLabel5);
             this.Controls.Add(this.skinTextBox4);
             this.Controls.Add(this.skinLabel4);
@@ -343,7 +345,7 @@ namespace Finance.UI.User
         private CCWin.SkinControl.SkinLabel skinLabel4;
         private CCWin.SkinControl.SkinTextBox skinTextBox4;
         private CCWin.SkinControl.SkinLabel skinLabel5;
-        private CCWin.SkinControl.SkinLabel skinLabel6;
         private CCWin.SkinControl.SkinButton skinButton1;
+        private CCWin.SkinControl.SkinButton skinButton2;
     }
 }
